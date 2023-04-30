@@ -187,3 +187,21 @@ max-width: 50%;
   color: teal;
   cursor: pointer;
 }
+
+.btn{
+background-color: white;
+color: teal;
+padding: 15px 30px;
+text-decoration: none;
+border: 2px solid teal;
+border-radius: 20px;
+
+}
+
+.btn:hover{
+  background-color: teal;
+  color: white;
+  border: 2px solid white;
+
+}
+  
