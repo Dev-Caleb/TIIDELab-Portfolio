@@ -59,7 +59,6 @@ body{
 }
 
 .home-content{
-background: yellowgreen;
 max-width: 50%;
 }
 
@@ -121,5 +120,46 @@ max-width: 50%;
   transform: translate(-50%, -50%);
   max-width: 100%;
   /*object-fit: cover;*/
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  z-index: 100;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: #333;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  margin: 0 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.footer a:hover {
+  transform: scale(1.1);
+}
+
+.footer box-icon {
+  width: 30px;
+  height: 30px;
 }
  
