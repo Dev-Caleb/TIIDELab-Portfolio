@@ -39,6 +39,7 @@ body{
   text-decoration: none;
   font-weight: 500;
   margin-left: 35px;
+  
 }
 
 .header {
@@ -163,3 +164,26 @@ max-width: 50%;
   height: 30px;
 }
  
+.skills-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.skills-list li {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 20px;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 20px;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.skills-list li:hover {
+  background-color: white;
+  color: teal;
+  cursor: pointer;
+}
