@@ -406,26 +406,46 @@ box-sizing: border-box;
     flex: 0 0 100%;
   }
  
-  body{
-    background-color: black;
+
+  .btn {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .glow {
+    width: 50px;
+    height: 50px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
 
  
 
-  .home-img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px 50px;
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
   }
-  .home-img .glowing-circle::after {
-    content: '';
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    background: teal;
-    border-radius: 50%;
+  
+  .nav-link {
+    margin: 10px 0;
   }
 }
 
